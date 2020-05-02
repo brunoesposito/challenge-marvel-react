@@ -1,3 +1,5 @@
-const INITIAL_STATE = {}
+const INITIAL_STATE = {
+  heroeChange: []
+}
 
 export default INITIAL_STATE;
