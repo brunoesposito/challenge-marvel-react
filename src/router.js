@@ -8,7 +8,6 @@ import {
 //Pages
 import Home from './structure/pages/Home';
 import Details from './structure/pages/Details';
-import NotFound from './structure/pages/NotFound';
 
 export default function Routes() {
     const setRoutes = [
@@ -19,10 +18,6 @@ export default function Routes() {
       {
         path: '/detail/:heroeId',
         component: Details
-      },
-      {
-        path: '*',
-        component: NotFound
       }
     ];
 
